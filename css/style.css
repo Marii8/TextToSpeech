@@ -1,0 +1,92 @@
+.text-tag {
+  list-style: none;
+  width: 100%;
+}
+
+body {
+  background-image: url(../img/bg.jpg);
+  background-size: cover;
+  background-repeat: repeat-y;
+  height: 100vh;
+  color: #4a5960;
+}
+#dropzone {
+  width: 75%;
+  background: rgba(255, 255, 255, .6) right 20px center no-repeat;
+  border: 2px dashed #9b9b9b;
+  border-radius: 3px;
+  cursor: pointer;
+  min-height: 50px;
+  padding: 20px;
+  text-shadow: 1px 1px 0 #fff;
+}
+
+.drag-drop-inside .vs-app {
+  width: 282px;
+  height: 162px;
+}
+
+.drag-drop-inside .capture {
+  background-image: url(../img/drag-and-drop-bg.png);
+  background-size: cover;
+}
+
+#dropzone.dropover {
+  background-color: #cff;
+  transition: 2.0s;
+  color: #9cc;
+}
+
+#field:empty::before {
+  color: #ccc;
+  content: "Files data will be shown here.";
+}
+
+#files img {
+  border: solid 1px #ccc;
+  cursor: pointer;
+  height: auto;
+  margin: 0 10px;
+  max-height: 128px;
+  max-width: 128px;
+  width: auto;
+}
+
+textarea#dataUrl {
+  display: none;
+  font-size: 11px;
+  width: 70%;
+  height: 50PX;
+}
+
+.submit-btn {
+  cursor: pointer;
+}
+
+#field li{
+  list-style: none;
+}
+
+.title {
+  font-family: 'Niramit', sans-serif;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.header {
+  background: linear-gradient(rgba(196, 166, 202, .5), rgba(165, 209, 244, .5));
+}
+
+.file-select {
+  border: 1px solid #ddd;
+  padding: 5px;
+  cursor: pointer;
+  box-shadow: 0 0 3px;
+  width: 200px;
+}
+
+.show {
+  display: block;
+}
+
+
